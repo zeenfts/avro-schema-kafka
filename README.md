@@ -11,5 +11,5 @@ Stream [Bitcoin Price Training Data](https://www.kaggle.com/datasets/team-ai/bit
 <sub>
 Note: <br>
 - You can also check on the <a href="http://localhost:9021">Kafka Control Center</a> for better UI! <br>
-- Don't forget to end up everything <code>docker container stop $(docker ps -a -q); docker system prune -f; docker volume prune -f; docker container prune -f</code>. <br>Because the data stream to the BigQuery, unless you have no worry for the <span style="color:red">Billing</span>!
+- Don't forget to end up everything <code>docker container stop $(docker ps -a -q); docker system prune; docker volume prune; docker container prune</code>. <br>Because the data stream to the BigQuery, unless you have no worry for the <span style="color:red">Billing</span>!
 </sub>
