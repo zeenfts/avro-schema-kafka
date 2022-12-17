@@ -4,5 +4,5 @@
 ![](https://github.com/zeenfts/avro-schema-kafka/blob/main/imgs/3_control_producer_consumer_2.png)
 
 ## BigQuery Sink
-![](https://github.com/zeenfts/avro-schema-kafka/blob/main/imgs/4_bigquery_overview.png)<br>
-![](https://github.com/zeenfts/avro-schema-kafka/blob/main/imgs/5_bigquery_table.png)
+![](https://github.com/zeenfts/avro-schema-kafka/blob/main/imgs/4_bigquery%20overview.png)<br>
+![](https://github.com/zeenfts/avro-schema-kafka/blob/main/imgs/5_bigquery%20table.png)
