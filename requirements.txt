@@ -1,0 +1,4 @@
+confluent-kafka
+google-cloud-bigquery
+requests
+avro-python3
