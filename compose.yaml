@@ -19,7 +19,7 @@ services:
     volumes:
       - ./app/producer.py:/usr/share/app/producer.py
       - ./requirements.txt:/usr/share/app/requirements.txt
-      - ./data/:/usr/share/app/data/
+      - ./data/:/usr/share/app/data/:ro
       - ./schema/:/usr/share/app/schema/
 
   app-consumer:
@@ -40,7 +40,7 @@ services:
     volumes:
       - ./app/consumer.py:/usr/share/app/consumer.py
       - ./requirements.txt:/usr/share/app/requirements.txt
-      - ./.credentials/creds.json:/root/.credentials/creds.json
+      - ./.credentials/creds.json:/root/.credentials/creds.json:ro
 
   zookeeper:
     image: confluentinc/cp-zookeeper:7.3.0
