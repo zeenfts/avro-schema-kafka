@@ -2,7 +2,7 @@
 version: '3.7'
 services:
   app-producer:
-    image: python:3.8.16-slim-bullseye
+    image: python:3.11.1-slim-bullseye
     container_name: app-producer
     working_dir: /usr/share/app
     command: 
@@ -23,7 +23,7 @@ services:
       - ./schema/:/usr/share/app/schema/
 
   app-consumer:
-    image: python:3.8.16-slim-bullseye
+    image: python:3.11.1-slim-bullseye
     container_name: app-consumer
     working_dir: /usr/share/app
     command: 
