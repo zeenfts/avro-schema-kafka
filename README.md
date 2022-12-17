@@ -1,5 +1,5 @@
 # avro-schema-kafka
-Stream [Bitcoin Price Training Data](https://www.kaggle.com/datasets/team-ai/bitcoin-price-prediction?select=bitcoin_price_Training+-+Training.csv) on Apache Kafka using Schema Registry as Avro Format.
+Stream [Bitcoin Price Training Data](https://www.kaggle.com/datasets/team-ai/bitcoin-price-prediction?select=bitcoin_price_Training+-+Training.csv) on Apache Kafka using Schema Registry as Avro Format sink to BigQuery.
 
 1. Provide your Service Account Key File as '_**creds.json**_' for BigQuery inside [.credentials/](https://github.com/zeenfts/avro-schema-kafka/tree/main/.credentials).
 2. `docker compose up` to start everything.
